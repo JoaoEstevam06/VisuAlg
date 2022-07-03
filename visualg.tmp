@@ -1,0 +1,23 @@
+algoritmo "semnome"
+var
+   cont, i, f, v: inteiro
+inicio
+      cont <- 1
+      escreva("Inicio: ")
+      leia(i)
+      escreva("Fim: ")
+      leia(f)
+      se (f > i) entao
+         cont <- i
+      enquanto(cont <= f)faca
+                    escreval(cont, ".. ")
+                    cont <- cont + 1
+      fimenquanto
+      senao
+           cont <- i
+           Enquanto (CONT >= F) faca
+            escreval(cont, ".. ")
+            cont <- cont - 1
+      fimenquanto
+      fimse
+fimalgoritmo
